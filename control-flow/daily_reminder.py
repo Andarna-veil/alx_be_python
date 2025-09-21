@@ -1,3 +1,5 @@
+
+
 # daily_reminder.py
 
 # Ask the user for task details
@@ -23,4 +25,5 @@ else:
     reminder = "Note: " + reminder + ". Consider completing it when you have free time."
 
 # Print final reminder
-print("\nReminder:", reminder)
+print(f"Reminder: {reminder}")
+
